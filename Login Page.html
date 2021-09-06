@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login Simple</title>
+  <style>
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+      background-image: linear-gradient(80deg, #FEC63E, #9C7A26);
+    }
+
+    div {
+      background-color: rgba(0, 0, 0, 0.7);
+      position: absolute;
+      border: 0;
+      top: 50%;
+      left: 40%;
+      transform: translate(-50px, -50%);
+      padding: 60px;
+      border-radius: 15px;
+      color: white;
+      transition: 0.25s;
+      font-size: 1em;
+      display: block;
+      text-align: center;
+
+    }
+
+    h1 {
+      color: white;
+      text-transform: uppercase;
+      font-weight: 500;
+      font-size: 2.5em;
+      text-align: center;
+      font-weight: bold;
+      padding: 20px;
+
+
+
+
+    }
+
+    button {
+      background-color: #FEC63E;
+      padding: 20px;
+      border: none;
+      width: 100%;
+      border-radius: 10px;
+      font-size: 15px;
+      font-weight: bold;
+      cursor: pointer;
+
+
+    }
+
+    button:hover {
+      background-color: rgba(255, 255, 0, 0.699);
+
+
+    }
+
+    .nome {
+      margin: 20px auto;
+      display: block;
+      border: 0;
+      text-align: center;
+      border: 2px solid yellow;
+      padding: 14px 40px;
+      outline: none;
+      color: black;
+      border-radius: 24px;
+      transition: 0.25s;
+      font-size: 1em;
+      cursor: pointer;
+
+    }
+
+    .senha {
+      margin: 20px auto;
+      display: block;
+      border: 0;
+      text-align: center;
+      border: 2px solid yellow;
+      padding: 14px 40px;
+      outline: none;
+      color: black;
+      border-radius: 24px;
+      transition: 0.25s;
+      font-size: 1em;
+      cursor: pointer;
+
+
+    }
+
+    .nome:hover {
+      background: white
+    }
+
+    .nome::before {
+      content: "";
+      background: #000;
+      margin-top: -20px;
+    }
+
+    .senha:hover {
+      background: white
+    }
+
+    .senha::before {
+      content: "";
+      background: #000;
+      margin-top: -20px;
+  </style>
+</head>
+
+<body>
+  <div>
+    <h1>Login</h1>
+    <input class="nome" type="text" placeholder="Nome">
+
+    <input class="senha" type="password" placeholder="Senha">
+    <br><br>
+    <button>Enviar</button>
+
+
+  </div>
+</body>
+
+</html>
